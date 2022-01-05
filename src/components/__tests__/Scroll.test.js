@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Scroll from './Scroll';
+import Scroll from '../Scroll';
 
 it('expect to render Scroll component', () => {
   const wrapper = shallow(<Scroll />);
