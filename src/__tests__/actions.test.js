@@ -1,6 +1,5 @@
 import configureMockStore from 'redux-mock-store';
 import thunkMiddleware from 'redux-thunk';
-import nock from 'nock';
 
 import * as actions from '../actions';
 import { apiCall } from '../api/api';
